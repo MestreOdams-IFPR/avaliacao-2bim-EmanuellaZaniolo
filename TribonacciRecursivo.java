@@ -1,26 +1,24 @@
 import java.util.Scanner;
 
-public class EmanuellaZanioloQuestaoDois{
+public class TribonacciRecursivo{
     final static Scanner LER = new Scanner(System.in);
     public static void main(String[] args) {
         int valor=lerInteiro();
-        int res=0;
-        int num=0; 
-        int f=0;
-        res=recTribonacci(valor, num, f);
+        recTribonacci(valor);
+        System.out.println();
     }
-    public static int recTribonacci(int valor, int num,int f){
+    public static int recTribonacci(int valor){
         int res=0;
         int i=0;
         if(valor==0 || valor==1){
-            res=0;
-            return res;
+           
+            return 0;
+        } else if (valor==2){
+            return 1;
         }
-        if (num>valor) {
-            return res;
-        } else {
-            i++;
-            recTribonacci(valor, num-i, f);
+        else {
+            
+            return recTribonacci(valor-1+recTribonacci(valor-2) +recTribonacci(valor-3));
             
         }
      

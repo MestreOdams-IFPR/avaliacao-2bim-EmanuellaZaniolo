@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EmanuellaZanioloQuestaoUm {
+public class QuestaoUm_OqueFaz {
     final static Scanner LER = new Scanner(System.in);
     public static void main(String[] args) {
         int [] vet=new int[4];
@@ -34,4 +34,4 @@ public class EmanuellaZanioloQuestaoUm {
         return valor;
     }
 }
-//retorna o vet invertido
+//ordena e inverte o vet
