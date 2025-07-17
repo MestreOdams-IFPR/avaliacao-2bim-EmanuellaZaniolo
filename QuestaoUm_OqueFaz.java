@@ -34,4 +34,4 @@ public class QuestaoUm_OqueFaz {
         return valor;
     }
 }
-//ordena e inverte o vet
+//ordena e inverte o vet // SÓ INVERTE É O SWAP RECURSIVO

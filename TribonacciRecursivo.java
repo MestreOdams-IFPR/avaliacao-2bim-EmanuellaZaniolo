@@ -18,7 +18,7 @@ public class TribonacciRecursivo{
         }
         else {
             
-            return recTribonacci(valor-1+recTribonacci(valor-2) +recTribonacci(valor-3));
+            return recTribonacci(valor-1+recTribonacci(valor-2) +recTribonacci(valor-3)); // PEQUENO ERRO NA CHAMADA
             
         }
      
